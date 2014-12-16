@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wagenbestand SYSTEM "tl2.dtd">
+<?xml-stylesheet type="text/xsl" href="tl3.xsl"?>
+<wagenbestand>
+	<wagen WagenID="asb1234">
+		<hersteller>Porsche</hersteller>
+		<modell>Carrera 4s</modell>
+		<baujahr>2012</baujahr>
+		<erstzulassung>
+			<day>12</day>
+			<month>12</month>
+			<year>1979</year>
+		</erstzulassung>
+		<km>12500</km>
+		<antriebsart typ="Allrad"/>
+		<motor>
+			<verbrennung typ="Benzin">
+				<ps>345</ps>
+				<tank>67</tank>
+			</verbrennung>
+		</motor>
+		<unfall>
+			<day>56</day>
+			<month>34</month>
+			<year>1232</year>
+			<beschreibung>Boom hat's gmacht...</beschreibung>
+		</unfall>
+		<url>img2.jpg</url>
+		<karosserieform typ="Coupe"/>
+	</wagen>
+	<wagen WagenID="asb12334">
+		<hersteller>Porsche</hersteller>
+		<modell>Cayenne</modell>
+		<baujahr>2012</baujahr>
+		<erstzulassung>
+			<day>12</day>
+			<month>12</month>
+			<year>1979</year>
+		</erstzulassung>
+		<km>12500</km>
+		<neuwagen/>
+		<antriebsart typ="Allrad"/>
+		<motor>
+			<verbrennung typ="Diesel">
+				<ps>345</ps>
+				<tank>80</tank>
+			</verbrennung>
+		</motor>
+		<url>img2.jpg</url>
+		<karosserieform typ="sonstige"/>
+	</wagen>
+</wagenbestand>

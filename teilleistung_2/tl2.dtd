@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT wagenbestand (wagen*)>
+<!ELEMENT km (#PCDATA)>
+<!ELEMENT ps (#PCDATA)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT tank (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT motor (verbrennung | elektro)>
+<!ELEMENT wagen (hersteller, modell, baujahr, erstzulassung, km, neuwagen?, antriebsart, motor, unfall*, url?, karosserieform)>
+<!ATTLIST wagen
+	WagenID ID #REQUIRED
+>
+<!ELEMENT modell (#PCDATA)>
+<!ELEMENT unfall (day, month, year, beschreibung)>
+<!ELEMENT baujahr (#PCDATA)>
+<!ELEMENT neuwagen EMPTY>
+<!ELEMENT hersteller (#PCDATA)>
+<!ELEMENT antriebsart EMPTY>
+<!ATTLIST antriebsart
+	typ (Front | Heck | Allrad) #REQUIRED
+>
+<!ELEMENT verbrennung (ps, tank)>
+<!ATTLIST verbrennung
+	typ (Benzin | Diesel) #REQUIRED
+>
+<!ELEMENT elektro (ps, akkukapazitaet)>
+<!ELEMENT akkukapazitaet (#PCDATA)>
+<!ELEMENT beschreibung (#PCDATA)>
+<!ELEMENT erstzulassung (day, month, year)>
+<!ELEMENT karosserieform EMPTY>
+<!ATTLIST karosserieform
+	typ (Limousine | Coupe | Kombi | Cabriolet | sonstige) #REQUIRED
+>
