@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE wagenbestand SYSTEM "tl2.dtd">
-<?xml-stylesheet type="text/xsl" href="tl3.xsl"?>
+<?xml-stylesheet type="text/xsl" href="tl2.xsl"?>
 <wagenbestand>
-	<wagen WagenID="asb1234">
+	<wagen WagenID="1">
 		<hersteller>Porsche</hersteller>
-		<modell>Carrera 4s</modell>
+		<modell>911 Carrera 4s</modell>
 		<baujahr>2012</baujahr>
 		<erstzulassung>
 			<day>12</day>
 			<month>12</month>
-			<year>1979</year>
+			<year>2012</year>
 		</erstzulassung>
 		<km>12500</km>
 		<antriebsart typ="Allrad"/>
 		<motor>
 			<verbrennung typ="Benzin">
 				<ps>345</ps>
-				<tank>67</tank>
+				<tank>67 l</tank>
 			</verbrennung>
 		</motor>
 		<unfall>
-			<day>56</day>
-			<month>34</month>
-			<year>1232</year>
+			<day>24</day>
+			<month>12</month>
+			<year>2012</year>
 			<beschreibung>Boom hat's gmacht...</beschreibung>
 		</unfall>
-		<url>img2.jpg</url>
+		<url>img1.jpg</url>
 		<karosserieform typ="Coupe"/>
 	</wagen>
-	<wagen WagenID="asb12334">
+	<wagen WagenID="2">
 		<hersteller>Porsche</hersteller>
 		<modell>Cayenne</modell>
-		<baujahr>2012</baujahr>
+		<baujahr>2013</baujahr>
 		<erstzulassung>
-			<day>12</day>
-			<month>12</month>
-			<year>1979</year>
+			<day>1</day>
+			<month>2</month>
+			<year>2013</year>
 		</erstzulassung>
-		<km>12500</km>
+		<km>789</km>
 		<neuwagen/>
 		<antriebsart typ="Allrad"/>
 		<motor>
@@ -48,5 +48,107 @@
 		</motor>
 		<url>img2.jpg</url>
 		<karosserieform typ="sonstige"/>
+	</wagen>
+	<wagen WagenID="3">
+		<hersteller>Porsche</hersteller>
+		<modell>Cayman S</modell>
+		<baujahr>2011</baujahr>
+		<erstzulassung>
+			<day>14</day>
+			<month>2</month>
+			<year>2011</year>
+		</erstzulassung>
+		<km>12789</km>
+		<neuwagen/>
+		<antriebsart typ="Heck"/>
+		<motor>
+			<verbrennung typ="Benzin">
+				<ps>330</ps>
+				<tank>67 l</tank>
+			</verbrennung>
+		</motor>
+		<url>img3.jpg</url>
+		<karosserieform typ="Coupe"/>
+	</wagen>
+	<wagen WagenID="4">
+		<hersteller>Porsche</hersteller>
+		<modell>Cayman S</modell>
+		<baujahr>2011</baujahr>
+		<erstzulassung>
+			<day>14</day>
+			<month>2</month>
+			<year>2011</year>
+		</erstzulassung>
+		<km>12789</km>
+		<neuwagen/>
+		<antriebsart typ="Heck"/>
+		<motor>
+			<verbrennung typ="Benzin">
+				<ps>330</ps>
+				<tank>60 l</tank>
+			</verbrennung>
+		</motor>
+		<url>img3.jpg</url>
+		<karosserieform typ="Coupe"/>
+	</wagen>
+	<wagen WagenID="5">
+		<hersteller>BMW</hersteller>
+		<modell>330i</modell>
+		<baujahr>2011</baujahr>
+		<erstzulassung>
+			<day>14</day>
+			<month>2</month>
+			<year>2010</year>
+		</erstzulassung>
+		<km>12789</km>
+		<antriebsart typ="Heck"/>
+		<motor>
+			<verbrennung typ="Benzin">
+				<ps>230</ps>
+				<tank>60 l</tank>
+			</verbrennung>
+		</motor>
+		<url>img4.jpg</url>
+		<karosserieform typ="Coupe"/>
+	</wagen>
+	<wagen WagenID="6">
+		<hersteller>BMW</hersteller>
+		<modell>330d</modell>
+		<baujahr>2010</baujahr>
+		<erstzulassung>
+			<day>1</day>
+			<month>2</month>
+			<year>2010</year>
+		</erstzulassung>
+		<km>12789</km>
+		<antriebsart typ="Heck"/>
+		<motor>
+			<verbrennung typ="Diesel">
+				<ps>230</ps>
+				<tank>60 l</tank>
+			</verbrennung>
+		</motor>
+		<url>img5.jpg</url>
+		<karosserieform typ="Coupe"/>
+	</wagen>
+	<wagen WagenID="7">
+		<hersteller>Tesla</hersteller>
+		<modell>Model S</modell>
+		<baujahr>2014</baujahr>
+		<erstzulassung>
+			<day>11</day>
+			<month>3</month>
+			<year>2014</year>
+		</erstzulassung>
+		<km>300</km>
+		<antriebsart typ="Heck"/>
+		<motor>
+			<elektro>
+				<ps>400</ps>
+				<akkukapazitaet>85 kWh</akkukapazitaet>
+			</elektro>
+		</motor>
+		<url>img5.jpg</url>
+		<karosserieform typ="Coupe"/>
 	</wagen>
 </wagenbestand>
