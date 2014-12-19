@@ -16,7 +16,7 @@
 		<motor>
 			<verbrennung typ="Benzin">
 				<ps>345</ps>
-				<tank>67 l</tank>
+				<tank>67</tank>
 			</verbrennung>
 		</motor>
 		<unfall>
@@ -25,6 +25,12 @@
 			<year>2012</year>
 			<beschreibung>Boom hat's gmacht...</beschreibung>
 		</unfall>
+		<unfall>
+			<day>02</day>
+			<month>11</month>
+			<year>2012</year>
+			<beschreibung>Kaputt</beschreibung>
+		</unfall>
 		<url>img1.jpg</url>
 		<karosserieform typ="Coupe"/>
 	</wagen>
@@ -32,12 +38,8 @@
 		<hersteller>Porsche</hersteller>
 		<modell>Cayenne</modell>
 		<baujahr>2013</baujahr>
-		<erstzulassung>
-			<day>1</day>
-			<month>2</month>
-			<year>2013</year>
-		</erstzulassung>
-		<km>789</km>
+		<erstzulassung/>
+		<km>0</km>
 		<neuwagen/>
 		<antriebsart typ="Allrad"/>
 		<motor>
@@ -52,19 +54,15 @@
 	<wagen WagenID="3">
 		<hersteller>Porsche</hersteller>
 		<modell>Cayman S</modell>
-		<baujahr>2011</baujahr>
-		<erstzulassung>
-			<day>14</day>
-			<month>2</month>
-			<year>2011</year>
-		</erstzulassung>
-		<km>12789</km>
+		<baujahr>2013</baujahr>
+		<erstzulassung/>
+		<km>0</km>
 		<neuwagen/>
 		<antriebsart typ="Heck"/>
 		<motor>
 			<verbrennung typ="Benzin">
 				<ps>330</ps>
-				<tank>67 l</tank>
+				<tank>67</tank>
 			</verbrennung>
 		</motor>
 		<url>img3.jpg</url>
@@ -72,20 +70,16 @@
 	</wagen>
 	<wagen WagenID="4">
 		<hersteller>Porsche</hersteller>
-		<modell>Cayman S</modell>
-		<baujahr>2011</baujahr>
-		<erstzulassung>
-			<day>14</day>
-			<month>2</month>
-			<year>2011</year>
-		</erstzulassung>
-		<km>12789</km>
+		<modell>911 Turbo</modell>
+		<baujahr>2014</baujahr>
+		<erstzulassung />
+		<km>0</km>
 		<neuwagen/>
-		<antriebsart typ="Heck"/>
+		<antriebsart typ="Allrad"/>
 		<motor>
 			<verbrennung typ="Benzin">
-				<ps>330</ps>
-				<tank>60 l</tank>
+				<ps>450</ps>
+				<tank>80</tank>
 			</verbrennung>
 		</motor>
 		<url>img3.jpg</url>
@@ -97,7 +91,7 @@
 		<baujahr>2011</baujahr>
 		<erstzulassung>
 			<day>14</day>
-			<month>2</month>
+			<month>02</month>
 			<year>2010</year>
 		</erstzulassung>
 		<km>12789</km>
@@ -105,7 +99,7 @@
 		<motor>
 			<verbrennung typ="Benzin">
 				<ps>230</ps>
-				<tank>60 l</tank>
+				<tank>60</tank>
 			</verbrennung>
 		</motor>
 		<url>img4.jpg</url>
@@ -116,8 +110,8 @@
 		<modell>330d</modell>
 		<baujahr>2010</baujahr>
 		<erstzulassung>
-			<day>1</day>
-			<month>2</month>
+			<day>01</day>
+			<month>02</month>
 			<year>2010</year>
 		</erstzulassung>
 		<km>12789</km>
@@ -125,7 +119,7 @@
 		<motor>
 			<verbrennung typ="Diesel">
 				<ps>230</ps>
-				<tank>60 l</tank>
+				<tank>60</tank>
 			</verbrennung>
 		</motor>
 		<url>img5.jpg</url>
@@ -137,7 +131,7 @@
 		<baujahr>2014</baujahr>
 		<erstzulassung>
 			<day>11</day>
-			<month>3</month>
+			<month>03</month>
 			<year>2014</year>
 		</erstzulassung>
 		<km>300</km>
@@ -145,9 +139,15 @@
 		<motor>
 			<elektro>
 				<ps>400</ps>
-				<akkukapazitaet>85 kWh</akkukapazitaet>
+				<akkukapazitaet>85</akkukapazitaet>
 			</elektro>
 		</motor>
+		<unfall>
+			<day>02</day>
+			<month>4</month>
+			<year>2014</year>
+			<beschreibung>Batterie explodiert!</beschreibung>
+		</unfall>
 		<url>img5.jpg</url>
 		<karosserieform typ="Coupe"/>
 	</wagen>
