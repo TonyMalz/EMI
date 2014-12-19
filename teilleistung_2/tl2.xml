@@ -44,7 +44,7 @@
 		<antriebsart typ="Allrad"/>
 		<motor>
 			<verbrennung typ="Diesel">
-				<ps>345</ps>
+				<ps>200</ps>
 				<tank>80</tank>
 			</verbrennung>
 		</motor>
@@ -98,7 +98,7 @@
 		<antriebsart typ="Heck"/>
 		<motor>
 			<verbrennung typ="Benzin">
-				<ps>230</ps>
+				<ps>330</ps>
 				<tank>60</tank>
 			</verbrennung>
 		</motor>
@@ -118,7 +118,7 @@
 		<antriebsart typ="Heck"/>
 		<motor>
 			<verbrennung typ="Diesel">
-				<ps>230</ps>
+				<ps>330</ps>
 				<tank>60</tank>
 			</verbrennung>
 		</motor>
@@ -148,6 +148,23 @@
 			<year>2014</year>
 			<beschreibung>Batterie explodiert!</beschreibung>
 		</unfall>
+		<url>img5.jpg</url>
+		<karosserieform typ="Coupe"/>
+	</wagen>
+	<wagen WagenID="8">
+		<hersteller>Tesla</hersteller>
+		<modell>Model S</modell>
+		<baujahr>2014</baujahr>
+		<erstzulassung />
+		<km>0</km>
+		<neuwagen/>
+		<antriebsart typ="Heck"/>
+		<motor>
+			<elektro>
+				<ps>500</ps>
+				<akkukapazitaet>85</akkukapazitaet>
+			</elektro>
+		</motor>
 		<url>img5.jpg</url>
 		<karosserieform typ="Coupe"/>
 	</wagen>
