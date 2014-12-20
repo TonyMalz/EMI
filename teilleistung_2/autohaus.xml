@@ -2,14 +2,17 @@
 <!DOCTYPE wagenbestand SYSTEM "autohaus.dtd">
 <?xml-stylesheet type="text/xsl" href="autohaus.xsl"?>
 <wagenbestand>
-	<wagen WagenID="1">
+	<wagen WagenID="a1">
 		<hersteller>Porsche</hersteller>
 		<modell>911 Carrera 4s</modell>
 		<baujahr>2012</baujahr>
 		<erstzulassung>
+		<date>
 			<day>12</day>
 			<month>12</month>
 			<year>2012</year>
+		</date>
+			
 		</erstzulassung>
 		<km>12500</km>
 		<antriebsart typ="Allrad"/>
@@ -20,25 +23,29 @@
 			</verbrennung>
 		</motor>
 		<unfall>
-			<day>24</day>
-			<month>12</month>
-			<year>2012</year>
+			<date>
+				<day>24</day>
+				<month>12</month>
+				<year>2012</year>
+			</date>
 			<beschreibung>Boom hat's gmacht...</beschreibung>
 		</unfall>
 		<unfall>
-			<day>02</day>
-			<month>11</month>
-			<year>2012</year>
+			<date>
+				<day>04</day>
+				<month>11</month>
+				<year>2012</year>
+			</date>
 			<beschreibung>Frontal-Crash</beschreibung>
 		</unfall>
 		<url>img/carrera4s.jpeg</url>
 		<karosserieform typ="Coupe"/>
 	</wagen>
-	<wagen WagenID="2">
+	<wagen WagenID="a2">
 		<hersteller>Porsche</hersteller>
 		<modell>Cayenne</modell>
 		<baujahr>2013</baujahr>
-		<erstzulassung/>
+		<erstzulassung><none /></erstzulassung>
 		<km>0</km>
 		<neuwagen/>
 		<antriebsart typ="Allrad"/>
@@ -51,11 +58,11 @@
 		<url>img/cayenne.jpeg</url>
 		<karosserieform typ="sonstige"/>
 	</wagen>
-	<wagen WagenID="3">
+	<wagen WagenID="a3">
 		<hersteller>Porsche</hersteller>
 		<modell>Cayman S</modell>
 		<baujahr>2013</baujahr>
-		<erstzulassung/>
+		<erstzulassung><none/></erstzulassung>
 		<km>0</km>
 		<neuwagen/>
 		<antriebsart typ="Heck"/>
@@ -68,11 +75,11 @@
 		<url>img/cayman.jpeg</url>
 		<karosserieform typ="Coupe"/>
 	</wagen>
-	<wagen WagenID="4">
+	<wagen WagenID="a4">
 		<hersteller>Porsche</hersteller>
 		<modell>911 Turbo</modell>
 		<baujahr>2014</baujahr>
-		<erstzulassung />
+		<erstzulassung><none/></erstzulassung>
 		<km>0</km>
 		<neuwagen/>
 		<antriebsart typ="Allrad"/>
@@ -85,14 +92,16 @@
 		<url>img/turbo.jpeg</url>
 		<karosserieform typ="Coupe"/>
 	</wagen>
-	<wagen WagenID="5">
+	<wagen WagenID="a5">
 		<hersteller>BMW</hersteller>
 		<modell>330i</modell>
 		<baujahr>2011</baujahr>
 		<erstzulassung>
+		<date>
 			<day>14</day>
 			<month>02</month>
 			<year>2010</year>
+		</date>		
 		</erstzulassung>
 		<km>12789</km>
 		<antriebsart typ="Heck"/>
@@ -105,14 +114,17 @@
 		<url>img/330i.jpeg</url>
 		<karosserieform typ="Limousine"/>
 	</wagen>
-	<wagen WagenID="6">
+	<wagen WagenID="a6">
 		<hersteller>BMW</hersteller>
 		<modell>330d</modell>
 		<baujahr>2010</baujahr>
 		<erstzulassung>
+		<date>
 			<day>01</day>
 			<month>02</month>
 			<year>2010</year>
+		</date>
+			
 		</erstzulassung>
 		<km>227349</km>
 		<antriebsart typ="Heck"/>
@@ -124,14 +136,17 @@
 		</motor>
 		<karosserieform typ="Limousine"/>
 	</wagen>
-	<wagen WagenID="7">
+	<wagen WagenID="a7">
 		<hersteller>Tesla</hersteller>
 		<modell>Model S</modell>
 		<baujahr>2014</baujahr>
 		<erstzulassung>
+		<date>
 			<day>11</day>
 			<month>03</month>
 			<year>2014</year>
+		</date>
+			
 		</erstzulassung>
 		<km>300</km>
 		<antriebsart typ="Heck"/>
@@ -142,19 +157,21 @@
 			</elektro>
 		</motor>
 		<unfall>
-			<day>02</day>
-			<month>4</month>
-			<year>2014</year>
+			<date>
+				<day>02</day>
+				<month>04</month>
+				<year>2014</year>
+			</date>
 			<beschreibung>Batterie explodiert!</beschreibung>
 		</unfall>
 		<url>img/tesla_s.jpeg</url>
 		<karosserieform typ="Coupe"/>
 	</wagen>
-	<wagen WagenID="8">
+	<wagen WagenID="a8">
 		<hersteller>Tesla</hersteller>
 		<modell>Roadster</modell>
 		<baujahr>2014</baujahr>
-		<erstzulassung />
+		<erstzulassung><none /></erstzulassung>
 		<km>0</km>
 		<neuwagen/>
 		<antriebsart typ="Heck"/>
@@ -167,11 +184,11 @@
 		<url>img/tesla_r.jpeg</url>
 		<karosserieform typ="Coupe"/>
 	</wagen>
-	<wagen WagenID="9">
+	<wagen WagenID="a9">
 		<hersteller>VW</hersteller>
 		<modell>Golf</modell>
 		<baujahr>2014</baujahr>
-		<erstzulassung />
+		<erstzulassung><none /></erstzulassung>
 		<km>0</km>
 		<neuwagen/>
 		<antriebsart typ="Front"/>
@@ -184,14 +201,16 @@
 		<url>img/golf.jpeg</url>
 		<karosserieform typ="Limousine"/>
 	</wagen>
-	<wagen WagenID="10">
+	<wagen WagenID="a10">
 		<hersteller>VW</hersteller>
 		<modell>Golf Kombi</modell>
 		<baujahr>2012</baujahr>
 		<erstzulassung>
+		<date>
 			<day>02</day>
 			<month>08</month>
 			<year>2012</year>
+		</date>
 		</erstzulassung>
 		<km>10331</km>
 		<antriebsart typ="Front"/>
@@ -204,14 +223,16 @@
 		<url>img/golf_kombi.jpeg</url>
 		<karosserieform typ="Kombi"/>
 	</wagen>
-	<wagen WagenID="10">
+	<wagen WagenID="a11">
 		<hersteller>Mercedes</hersteller>
 		<modell>SLK</modell>
 		<baujahr>2009</baujahr>
 		<erstzulassung>
+		<date>
 			<day>02</day>
 			<month>08</month>
 			<year>2009</year>
+		</date>
 		</erstzulassung>
 		<km>14331</km>
 		<antriebsart typ="Heck"/>
