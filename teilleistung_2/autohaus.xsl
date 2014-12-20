@@ -75,6 +75,10 @@
 	<xsl:template match="wagen">
 		<tr class="content">
 		<td>
+			<xsl:attribute name="style">
+			    text-align:center;
+			    opacity: 0.5;
+				</xsl:attribute>
 			<xsl:value-of select="@WagenID" /> 
 		</td>
 		<td>
@@ -90,10 +94,10 @@
 			<xsl:value-of select="baujahr" /> 
 		</td>
 		<td>
-		<xsl:if test="erstzulassung != ''">
-			<xsl:value-of select="erstzulassung/day" />.<xsl:value-of select="erstzulassung/month" />.<xsl:value-of select="erstzulassung/year" />
+		<xsl:if test="erstzulassung/date">
+			<xsl:value-of select="erstzulassung/date/day" />.<xsl:value-of select="erstzulassung/date/month" />.<xsl:value-of select="erstzulassung/date/year" />
 		</xsl:if>
-		<xsl:if test="erstzulassung = ''">
+		<xsl:if test="erstzulassung/none">
 			<xsl:attribute name="style">
 			    text-align:center;
 			    opacity: 0.5;
@@ -120,6 +124,9 @@
 			</xsl:if>
 		</td>
 		<td>
+			<xsl:attribute name="style">
+			    text-align:right;
+			</xsl:attribute>
 			<xsl:value-of select="motor/*/ps" /> PS
 		</td>
 		<td>
@@ -157,7 +164,7 @@
 			<ul>
 			<xsl:for-each select="unfall">
 				<li>
-					<xsl:value-of select="day" />.<xsl:value-of select="month" />.<xsl:value-of select="year" /> - 
+					<xsl:value-of select="date/day" />.<xsl:value-of select="date/month" />.<xsl:value-of select="date/year" /> - 
 					<xsl:value-of select="beschreibung" />
 				</li>
 			</xsl:for-each>
@@ -188,6 +195,8 @@
 
 			}
 			table td {
+				padding:0;
+				margin:0;
 				padding-left: 10px;
 				padding-right: 10px;
 				white-space: nowrap;
@@ -202,7 +211,7 @@
 			}
 
 			.content:hover {
-				background: yellow;
+				background: #fffd6d;
 				transition: all .5s;
 			}
 
@@ -214,9 +223,12 @@
 				border-bottom: 1px solid #efefef;
 				margin-bottom: 30px;
 			}
-
+			td img {
+				z-index: 1;
+				transition: all .2s ease-in;
+			}
 			td img:hover {
-				height: 100%;
+				transform: scale(2.7);
 			}
 	</xsl:variable>
 </xsl:stylesheet>
