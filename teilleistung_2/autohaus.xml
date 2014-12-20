@@ -7,12 +7,11 @@
 		<modell>911 Carrera 4s</modell>
 		<baujahr>2012</baujahr>
 		<erstzulassung>
-		<date>
-			<day>12</day>
-			<month>12</month>
-			<year>2012</year>
-		</date>
-			
+			<date>
+				<day>12</day>
+				<month>12</month>
+				<year>2012</year>
+			</date>
 		</erstzulassung>
 		<km>12500</km>
 		<antriebsart typ="Allrad"/>
@@ -119,12 +118,11 @@
 		<modell>330d</modell>
 		<baujahr>2010</baujahr>
 		<erstzulassung>
-		<date>
-			<day>01</day>
-			<month>02</month>
-			<year>2010</year>
-		</date>
-			
+			<date>
+				<day>01</day>
+				<month>02</month>
+				<year>2010</year>
+			</date>
 		</erstzulassung>
 		<km>227349</km>
 		<antriebsart typ="Heck"/>
@@ -141,12 +139,11 @@
 		<modell>Model S</modell>
 		<baujahr>2014</baujahr>
 		<erstzulassung>
-		<date>
-			<day>11</day>
-			<month>03</month>
-			<year>2014</year>
-		</date>
-			
+			<date>
+				<day>11</day>
+				<month>03</month>
+				<year>2014</year>
+			</date>
 		</erstzulassung>
 		<km>300</km>
 		<antriebsart typ="Heck"/>
@@ -206,11 +203,11 @@
 		<modell>Golf Kombi</modell>
 		<baujahr>2012</baujahr>
 		<erstzulassung>
-		<date>
-			<day>02</day>
-			<month>08</month>
-			<year>2012</year>
-		</date>
+			<date>
+				<day>02</day>
+				<month>08</month>
+				<year>2012</year>
+			</date>
 		</erstzulassung>
 		<km>10331</km>
 		<antriebsart typ="Front"/>
@@ -228,11 +225,11 @@
 		<modell>SLK</modell>
 		<baujahr>2009</baujahr>
 		<erstzulassung>
-		<date>
-			<day>02</day>
-			<month>08</month>
-			<year>2009</year>
-		</date>
+			<date>
+				<day>02</day>
+				<month>08</month>
+				<year>2009</year>
+			</date>
 		</erstzulassung>
 		<km>14331</km>
 		<antriebsart typ="Heck"/>
