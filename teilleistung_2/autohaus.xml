@@ -29,9 +29,9 @@
 			<day>02</day>
 			<month>11</month>
 			<year>2012</year>
-			<beschreibung>Kaputt</beschreibung>
+			<beschreibung>Frontal-Crash</beschreibung>
 		</unfall>
-		<url>img1.jpg</url>
+		<url>img/carrera4s.jpeg</url>
 		<karosserieform typ="Coupe"/>
 	</wagen>
 	<wagen WagenID="2">
@@ -48,7 +48,7 @@
 				<tank>80</tank>
 			</verbrennung>
 		</motor>
-		<url>img2.jpg</url>
+		<url>img/cayenne.jpeg</url>
 		<karosserieform typ="sonstige"/>
 	</wagen>
 	<wagen WagenID="3">
@@ -65,7 +65,7 @@
 				<tank>67</tank>
 			</verbrennung>
 		</motor>
-		<url>img3.jpg</url>
+		<url>img/cayman.jpeg</url>
 		<karosserieform typ="Coupe"/>
 	</wagen>
 	<wagen WagenID="4">
@@ -82,7 +82,7 @@
 				<tank>80</tank>
 			</verbrennung>
 		</motor>
-		<url>img3.jpg</url>
+		<url>img/turbo.jpeg</url>
 		<karosserieform typ="Coupe"/>
 	</wagen>
 	<wagen WagenID="5">
@@ -102,8 +102,8 @@
 				<tank>60</tank>
 			</verbrennung>
 		</motor>
-		<url>img4.jpg</url>
-		<karosserieform typ="Coupe"/>
+		<url>img/330i.jpeg</url>
+		<karosserieform typ="Limousine"/>
 	</wagen>
 	<wagen WagenID="6">
 		<hersteller>BMW</hersteller>
@@ -114,16 +114,15 @@
 			<month>02</month>
 			<year>2010</year>
 		</erstzulassung>
-		<km>12789</km>
+		<km>227349</km>
 		<antriebsart typ="Heck"/>
 		<motor>
 			<verbrennung typ="Diesel">
-				<ps>330</ps>
+				<ps>230</ps>
 				<tank>60</tank>
 			</verbrennung>
 		</motor>
-		<url>img5.jpg</url>
-		<karosserieform typ="Coupe"/>
+		<karosserieform typ="Limousine"/>
 	</wagen>
 	<wagen WagenID="7">
 		<hersteller>Tesla</hersteller>
@@ -148,12 +147,12 @@
 			<year>2014</year>
 			<beschreibung>Batterie explodiert!</beschreibung>
 		</unfall>
-		<url>img5.jpg</url>
+		<url>img/tesla_s.jpeg</url>
 		<karosserieform typ="Coupe"/>
 	</wagen>
 	<wagen WagenID="8">
 		<hersteller>Tesla</hersteller>
-		<modell>Model S</modell>
+		<modell>Roadster</modell>
 		<baujahr>2014</baujahr>
 		<erstzulassung />
 		<km>0</km>
@@ -165,7 +164,63 @@
 				<akkukapazitaet>85</akkukapazitaet>
 			</elektro>
 		</motor>
-		<url>img5.jpg</url>
+		<url>img/tesla_r.jpeg</url>
+		<karosserieform typ="Coupe"/>
+	</wagen>
+	<wagen WagenID="9">
+		<hersteller>VW</hersteller>
+		<modell>Golf</modell>
+		<baujahr>2014</baujahr>
+		<erstzulassung />
+		<km>0</km>
+		<neuwagen/>
+		<antriebsart typ="Front"/>
+		<motor>
+			<verbrennung typ="Benzin">
+				<ps>110</ps>
+				<tank>85</tank>
+			</verbrennung>
+		</motor>
+		<url>img/golf.jpeg</url>
+		<karosserieform typ="Limousine"/>
+	</wagen>
+	<wagen WagenID="10">
+		<hersteller>VW</hersteller>
+		<modell>Golf Kombi</modell>
+		<baujahr>2012</baujahr>
+		<erstzulassung>
+			<day>02</day>
+			<month>08</month>
+			<year>2012</year>
+		</erstzulassung>
+		<km>10331</km>
+		<antriebsart typ="Front"/>
+		<motor>
+			<verbrennung typ="Diesel">
+				<ps>95</ps>
+				<tank>85</tank>
+			</verbrennung>
+		</motor>
+		<url>img/golf_kombi.jpeg</url>
+		<karosserieform typ="Kombi"/>
+	</wagen>
+	<wagen WagenID="10">
+		<hersteller>Mercedes</hersteller>
+		<modell>SLK</modell>
+		<baujahr>2009</baujahr>
+		<erstzulassung>
+			<day>02</day>
+			<month>08</month>
+			<year>2009</year>
+		</erstzulassung>
+		<km>14331</km>
+		<antriebsart typ="Heck"/>
+		<motor>
+			<verbrennung typ="Benzin">
+				<ps>330</ps>
+				<tank>75</tank>
+			</verbrennung>
+		</motor>
 		<karosserieform typ="Coupe"/>
 	</wagen>
 </wagenbestand>

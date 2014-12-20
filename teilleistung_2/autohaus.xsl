@@ -23,8 +23,8 @@
 					</tr>
 					<xsl:copy-of select="$table_header" />
 					<xsl:for-each select="key('motortyp',motor/*/@typ)">
-						<xsl:sort select="motor/*/ps" order="descending"/>
-						<xsl:sort select="baujahr" order="ascending"/>
+						<xsl:sort select="motor/*/ps" order="descending" data-type="number"/>
+						<xsl:sort select="baujahr" order="ascending" data-type="number"/>
 						<xsl:apply-templates select="." />
 					</xsl:for-each>
 				</xsl:for-each>
@@ -32,7 +32,7 @@
 
 				<br />
 				<br />
-				
+
 				<h2>Wagenverzeichnis</h2>
 				<table>
 					<xsl:for-each select="//wagen[generate-id(.)=generate-id(key('antrieb', antriebsart/@typ))]">
@@ -110,8 +110,8 @@
 		<td>
 			<xsl:if test="neuwagen">
 				Neuwagen
-				</xsl:if>
-				<xsl:if test="not(neuwagen)">
+			</xsl:if>
+			<xsl:if test="not(neuwagen)">
 				<xsl:attribute name="style">
 			    text-align:center;
 			    opacity: 0.5;
@@ -125,10 +125,10 @@
 		<td>
 			<xsl:if test="motor/elektro/akkukapazitaet">
 				<xsl:value-of select="motor/elektro/akkukapazitaet" /> kWh
-				</xsl:if>
-				<xsl:if test="motor/verbrennung/tank">
+			</xsl:if>
+			<xsl:if test="motor/verbrennung/tank">
 				<xsl:value-of select="motor/verbrennung/tank" /> Liter
-				</xsl:if>
+			</xsl:if>
 		</td>
 		<td>
 			<xsl:value-of select="antriebsart/@typ" /> 
@@ -137,7 +137,21 @@
 			<xsl:value-of select="karosserieform/@typ" /> 
 		</td>
 		<td>
-			<xsl:value-of select="url" /> 
+			
+			<xsl:if test="url !=''">
+				<img height="50px">
+				<xsl:attribute name="src">
+			    	<xsl:value-of select="url" />
+				</xsl:attribute>
+				</img>
+			</xsl:if>
+			<xsl:if test="not(url)">
+				<xsl:attribute name="style">
+			    text-align:center;
+			    opacity: 0.5;
+				</xsl:attribute>
+				kein Bild
+			</xsl:if>
 		</td>
 		<td>
 			<ul>
@@ -199,6 +213,10 @@
 				padding-left: 17px;
 				border-bottom: 1px solid #efefef;
 				margin-bottom: 30px;
+			}
+
+			td img:hover {
+				height: 100%;
 			}
 	</xsl:variable>
 </xsl:stylesheet>
