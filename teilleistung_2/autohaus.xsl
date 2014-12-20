@@ -195,8 +195,8 @@
 
 			}
 			table td {
-				padding:0;
-				margin:0;
+				padding-top: 5px;
+				padding-bottom:0;
 				padding-left: 10px;
 				padding-right: 10px;
 				white-space: nowrap;
