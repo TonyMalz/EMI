@@ -27,7 +27,7 @@
 >
 <!ELEMENT elektro (ps, akkukapazitaet)>
 <!ATTLIST elektro
-    typ Elektro #FIXED
+    typ CDATA #FIXED "Elektro"
 >
 <!ELEMENT akkukapazitaet (#PCDATA)>
 <!ELEMENT beschreibung (#PCDATA)>
